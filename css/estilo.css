@@ -500,6 +500,8 @@ nav{
     .redireccionadores{
         width: 30%;
     }
+    
+
 
     .boton-buscar{
         width: 60px;
@@ -574,6 +576,7 @@ nav{
         width: 35px;
         height: 40px;
         cursor: pointer;
+        padding-right: 5px;
     }
 
     .bars-menu span {
@@ -584,6 +587,7 @@ nav{
         margin-top: 6px;
         transform-origin: 0px 100%;
         transition: all 300ms;
+        
     }
     
     .activeline1__bars-menu{
@@ -643,7 +647,7 @@ nav{
     
     }
     .carrito h1{
-        font-size: 15px;
+        font-size: 10px;
         width: 15px;
         margin-bottom: 15px;
     }

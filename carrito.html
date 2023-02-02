@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Mi emprendimiento</title>
+</head>
+<body>
+    <div class="pagina" id="pagina">
+        <header class="encabezado">
+          <nav class="barra-de-navegacion">
+              <div class="logo">
+                  <a href="http://localhost:3000/"><img src="/img/nike.png" class="logo" alt=""></a>
+              </div>
+              <div class="busqueda">
+                  <input class="barra-de-busqueda" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+                  <a href="http://localhost:3000/lista-productos.html" class="boton-buscar">Buscar</a>
+              </div>
+              <div class="redireccionadores">
+                  <a href="#contactos" class="contacto"><img src="/img/contacto.png" alt=""></a>
+                  <a href="#ofertas" class="ofertas"><img src="/img/ofertas.png" alt=""></a>
+                  <a href="http://localhost:3000/carrito.html" class="carrito">
+                    <img src="/img/carrito.png" alt="">
+                    <h1 class="cant-prductos-carrito"></h1>
+                  </a>
+                  <div class="bars-menu" id="bars-menu">
+                    <span class="line1__bars-menu"></span>
+                    <span class="line2__bars-menu"></span>
+                    <span class="line3__bars-menu"></span>
+                </div>
+              </div>
+              
+          </nav>
+        </header>
+
+        <div class="categorias">
+          <nav class="barra-categorias" id="cat">
+              <ul class="lista-categorias">
+              <li><a class="categorias-remeras" href="http://localhost:3000/lista-productos.html"><span></span>Remeras</a></li>
+              <li><a class="categorias-pantalones"  href="http://localhost:3000/lista-productos.html"><span></span>Pantalones</a></li>
+              <li><a class="categorias-accesorios"  href="http://localhost:3000/lista-productos.html"><span></span>Accesorios</a></li>
+              <li><a class="categorias-ropa-deportiva"  href="http://localhost:3000/lista-productos.html"><span></span>Ropa deportiva</a></li>
+              <li><a class="categorias-buzos"  href="http://localhost:3000/lista-productos.html"><span></span>Buzos</a></li>
+              <li><a class="categorias-camperas"  href="http://localhost:3000/lista-productos.html"><span></span>Camperas</a></li>
+              <li><a class="categorias-mas"  href="http://localhost:3000/lista-productos.html"><span></span>Mas</a></li>
+              </ul>
+          </nav>
+          </div>
+
+        <div class="titulo2">
+            <h1>Tu carrito</h1>
+        </div>
+
+        <div class="contenedor-productos-carrito">
+          <!-- <div class="productos-carrito">
+            <img src="/img/buso1.jpg" alt="" class="imagen-carrito">
+            <h5>Producto:  Buzo facha</h5>
+            <div class="cantidad">
+                <h5>Cantidad</h5>
+                <input type="number" class="input-cantidad">
+            </div>
+            <h5>Precio: $10000</h5>
+            <a href="">❌</a>
+          </div> -->
+
+        </div>
+        <div class="total">
+          <!-- <h1>Total: ..</h1> -->
+        </div>
+
+        <div class="boton-comprar">
+            <a href="">Compar</a>
+        </div>
+
+        <div class="boton-comprar volver">
+            <a href="http://localhost:3000/index.html">Seguir comprando</a>
+        </div>
+
+        <div class="espacio">   
+        </div>
+
+        <footer class="pie-de-pagina">
+          <div class="horarios">
+            <h1>Horarios</h1>
+            <p>De lunes a vienres de 8:00hs a 19:00hs</p>
+          </div>
+          <div class="metodos-de-pago">
+            <h1>Metodos de pago</h1>
+            <img src="/img/tarjetas.png" alt="">
+          </div>
+          <div class="contactos" id="contactos">
+            <h1>Contactos</h1>
+            <a href="">Mail: nike@gmail.com</a>
+            <p>Direccion: Cuba 134</p>
+          </div>
+          <div class="redes">
+            <h1>Redes</h1>
+            <a href="">
+              <img src="/img/instagram.png" alt="">
+              <a href="https://www.instagram.com/nike/?hl=es">Instagram</a></a> 
+            <a href="">
+              <img src="/img/facebook.png" alt="">
+              <a href="https://es-la.facebook.com/nike/">Facebook</a></a>
+            </a>
+          </div>
+
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="module" src="/js/menu.js" ></script>
+    <script type="module" src="/js/categorias.js" ></script>
+    <script type="module" src="/js/buscador.js" ></script>
+    <script type="module" src="/js/carrito.js"></script>
+</body>
+</html>

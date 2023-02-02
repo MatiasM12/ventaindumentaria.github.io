@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Mi emprendimineto</title>
+</head>
+<body>
+    <div class="pagina" id="pagina">
+        <header class="encabezado">
+          <nav class="barra-de-navegacion">
+              <div class="logo">
+                  <a href="http://localhost:3000/"><img src="/img/nike.png" class="logo" alt=""></a>
+              </div>
+              <div class="busqueda">
+                  <input class="barra-de-busqueda" type="search" placeholder="¿Que estas buscando?" aria-label="Search">
+                  <a href="http://localhost:3000/lista-productos.html" class="boton-buscar">Buscar</a>
+              </div>
+              <div class="redireccionadores">
+                  <a href="#contactos" class="contacto"><img src="/img/contacto.png" alt=""></a>
+                  <a href="#ofertas" class="ofertas"><img src="/img/ofertas.png" alt=""></a>
+                  <a href="http://localhost:3000/carrito.html" class="carrito">
+                    <img src="/img/carrito.png" alt="">
+                    <h1 class="cant-prductos-carrito"></h1>
+                  </a>
+                  <div class="bars-menu" id="bars-menu">
+                    <span class="line1__bars-menu"></span>
+                    <span class="line2__bars-menu"></span>
+                    <span class="line3__bars-menu"></span>
+                </div>
+              </div>
+              
+          </nav>
+      </header>
+
+      <div class="categorias">
+  
+        <nav class="barra-categorias" id="cat">
+            <ul class="lista-categorias">
+            <li><a class="categorias-remeras" href="http://localhost:3000/lista-productos.html"><span></span>Remeras</a></li>
+            <li><a class="categorias-pantalones"  href="http://localhost:3000/lista-productos.html"><span></span>Pantalones</a></li>
+            <li><a class="categorias-accesorios"  href="http://localhost:3000/lista-productos.html"><span></span>Accesorios</a></li>
+            <li><a class="categorias-ropa-deportiva"  href="http://localhost:3000/lista-productos.html"><span></span>Ropa deportiva</a></li>
+            <li><a class="categorias-buzos"  href="http://localhost:3000/lista-productos.html"><span></span>Buzos</a></li>
+            <li><a class="categorias-camperas"  href="http://localhost:3000/lista-productos.html"><span></span>Camperas</a></li>
+            <li><a class="categorias-mas"  href="http://localhost:3000/lista-productos.html"><span></span>Mas</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div class="producto">
+            <!-- <div class="imagen">
+                <img src="/img/buso1.jpg" alt="">
+            </div>
+            <div class="informacion">
+                <h2>Buzo facha</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos quidem perspiciatis, ipsa nostrum pariatur voluptatem ipsum minus, quos maxime error dolores. Dolor deserunt eos, atque explicabo optio fugiat exercitationem illo!</p>
+                <p>Talles: M,L,XL</p>
+                <p>$ 10.000</p>
+                <p>en stock</p>
+                <div class="boton-producto">
+                    <a class="boton-comprar" href="http://localhost:3000/carrito.html">Comprar</a>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="titulo1">
+            <h1>Productos que te pueden interesar</h1>
+        </div>
+
+        <div class="productos-relacionados" id="productos-relacionados">
+          
+            <!-- <div  class="tarjeta-producto">
+                <div class="img-producto">
+                  <img src="/img/campera2.jpg" alt="" >
+                </div>
+                <div class="info-producto">
+                  <h2 class="titulo">Titulo</h2>
+                  <h2 class="precio">$$$</h2>
+                </div>
+                <div  class="boton-producto">
+                  <a class="boton-ver-mas" href="http://localhost:3000/producto.html">Ver mas</a>
+                </div>
+            </div> -->
+          </div>
+
+        <footer class="pie-de-pagina">
+            <div class="horarios">
+              <h1>Horarios</h1>
+              <p>De lunes a vienres de 8:00hs a 19:00hs</p>
+            </div>
+            <div class="metodos-de-pago">
+              <h1>Metodos de pago</h1>
+              <img src="/img/tarjetas.png" alt="">
+            </div>
+            <div class="contactos" id="contactos">
+              <h1>Contactos</h1>
+              <a href="">Mail: nike@gmail.com</a>
+              <p>Direccion: Cuba 134</p>
+            </div>
+            <div class="redes">
+              <h1>Redes</h1>
+              <a href="">
+                <img src="/img/instagram.png" alt="">
+                <a href="https://www.instagram.com/nike/?hl=es">Instagram</a></a> 
+              <a href="">
+                <img src="/img/facebook.png" alt="">
+                <a href="https://es-la.facebook.com/nike/">Facebook</a></a>
+              </a>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="module" src="/js/menu.js" ></script>
+    
+    <script type="module" src="/js/buscador.js" ></script>
+    <script type="module" src="/js/productos.js" ></script>
+    <script type="module" src="/js/categorias.js" ></script>
+</body>
+</html>

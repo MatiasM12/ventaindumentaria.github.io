@@ -57,7 +57,7 @@ function crearRelacionados (lista,idDiv) {
             <h2 class="precio">${lista.precio}</h2>
             </div>
             <div  class="boton-producto">
-            <a class="boton-ver-mas" href="https://matiasm12.github.io/ventaindumentaria.github.ioproducto.html" >Ver mas</a>
+            <a class="boton-ver-mas" href="https://matiasm12.github.io/ventaindumentaria.github.io/producto.html" >Ver mas</a>
             </div>
     `
     idDiv.append(tarjeta);

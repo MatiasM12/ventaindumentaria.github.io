@@ -495,7 +495,7 @@ nav{
 
 
     .barra-de-busqueda{
-        width: 50%;
+        width: 60%;
     }
 
     .boton-buscar{
@@ -657,7 +657,7 @@ nav{
     #titulo-producto{
         font-size: 23px;
         padding-top: 10px;
-        padding-left: 5px;
+        padding-left: 10px;
     }
 
     .filtros ul li {

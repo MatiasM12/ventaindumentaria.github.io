@@ -490,16 +490,13 @@ nav{
     }
 
     .logo{
-        width: 20%;
+        width: 60px;
     }
 
-    .busqueda{
-        width: 50%;
+    .barra-de-busqueda{
+        width: 60%;
     }
 
-    .redireccionadores{
-        width: 30%;
-    }
     
 
 

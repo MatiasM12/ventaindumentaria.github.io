@@ -5,8 +5,6 @@ var datosDeProducto = JSON.parse(localStorage.getItem("datosDeProducto"));
 
 
 function main(){
-    console.log(localStorage.getItem("datosDeProducto"));
-    console.log(datosDeProducto.imagen.slice(21));
     crearProducto();
     listaDeRelacionados.forEach(item => crearRelacionados(item,tarjetasDeProductosRelacionados)); 
     botonVerMasRelacionados();
@@ -21,7 +19,7 @@ function crearProducto() {
     
     tarjeta.innerHTML = `
         <div class="imagen">
-            <img src=${datosDeProducto.imagen.slice(55)} alt="">
+            <img src=${datosDeProducto.imagen} alt="">
         </div>
         <div class="informacion">
             <h2 class="titulo">${datosDeProducto.titulo}</h2>
@@ -38,11 +36,11 @@ function crearProducto() {
 }
 
 var listaDeRelacionados = [
-    {imagen : "/img/gorra.jpg",titulo : "Gorra",precio : "$ 100",categoria : 'accesorios'},
-    {imagen : "/img/gorra2.jpg",titulo : "Gorra invierno",precio : "$ 150",categoria : 'accesorios'},
-    {imagen : "/img/gorra3.jpg",titulo : "Gorra facha",precio : "$ 100",categoria : 'accesorios'},
-    {imagen : "/img/mochila2.jpg",titulo : "Mochila colorida",precio : "$ 150",categoria : 'accesorios'},
-    {imagen : "/img/guante.jpg",titulo : "Guante",precio : "$ 150",categoria : 'accesorios'}
+    {imagen : "https://matiasm12.github.io/ventaindumentaria.github.io/img/gorra.jpg",titulo : "Gorra",precio : "$ 100",categoria : 'accesorios'},
+    {imagen : "https://matiasm12.github.io/ventaindumentaria.github.io/img/gorra2.jpg",titulo : "Gorra invierno",precio : "$ 150",categoria : 'accesorios'},
+    {imagen : "https://matiasm12.github.io/ventaindumentaria.github.io/img/gorra3.jpg",titulo : "Gorra facha",precio : "$ 100",categoria : 'accesorios'},
+    {imagen : "https://matiasm12.github.io/ventaindumentaria.github.io/img/mochila2.jpg",titulo : "Mochila colorida",precio : "$ 150",categoria : 'accesorios'},
+    {imagen : "https://matiasm12.github.io/ventaindumentaria.github.io/img/guante.jpg",titulo : "Guante",precio : "$ 150",categoria : 'accesorios'}
 ]
 
 function crearRelacionados (lista,idDiv) { 

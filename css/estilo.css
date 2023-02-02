@@ -653,6 +653,7 @@ nav{
     .filtros{
         width: 30%;
         padding-right: 20px;
+        padding-top: 10px;
     }
     #titulo-producto{
         font-size: 23px;

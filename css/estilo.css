@@ -486,7 +486,7 @@ nav{
 @media (max-width: 900px) {
     nav{
         height: 90px;
-        gap: 5px;
+        width: 100%;
     }
 
     .logo{
@@ -499,7 +499,7 @@ nav{
     }
 
     .boton-buscar{
-        width: 55px;
+        width: 60px;
         display: flex;
         justify-content: center;
         align-items: center;

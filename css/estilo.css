@@ -490,12 +490,15 @@ nav{
     }
 
     .logo{
-        width: 60px;
+        width: 20%;
     }
 
+    .busqueda{
+        width: 50%;
+    }
 
-    .barra-de-busqueda{
-        width: 60%;
+    .redireccionadores{
+        width: 30%;
     }
 
     .boton-buscar{
@@ -533,9 +536,7 @@ nav{
         width: 400px;
     }
     
-    .bars-menu{
-        padding-right: 5px;
-    }
+
 
 
     .barra-categorias{

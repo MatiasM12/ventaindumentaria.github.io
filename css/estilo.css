@@ -486,15 +486,13 @@ nav{
 @media (max-width: 900px) {
     nav{
         height: 90px;
-        width: 100%;
     }
-
     .logo{
         width: 60px;
     }
 
     .barra-de-busqueda{
-        width: 60%;
+        width: 70%;
     }
 
     

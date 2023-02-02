@@ -532,6 +532,10 @@ nav{
     .card-body1{
         width: 400px;
     }
+    
+    .bars-menu{
+        padding-right: 5px;
+    }
 
 
     .barra-categorias{
@@ -653,11 +657,11 @@ nav{
     .filtros{
         width: 30%;
         padding-right: 20px;
-        padding-top: 10px;
+        padding-top: 5px;
     }
     #titulo-producto{
         font-size: 23px;
-        padding-top: 10px;
+        padding-top: 5px;
         padding-left: 10px;
     }
 

@@ -488,9 +488,11 @@ nav{
         height: 90px;
     }
     .logo{
-        width: 70px;
+        width: 60px;
     }
-
+    .carrito img{
+        height: 35px;
+    }
 
     .barra-de-busqueda{
         width: 70%;

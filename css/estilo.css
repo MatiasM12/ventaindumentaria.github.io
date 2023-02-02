@@ -487,13 +487,18 @@ nav{
     nav{
         height: 90px;
     }
+
+    .barra-de-navegacion{
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+    }
+
     .logo{
         width: 60px;
-        padding-left:5px;
     }
     .carrito img{
         height: 35px;
-        padding-right:5px;
     }
 
 
@@ -512,10 +517,14 @@ nav{
 
     .contacto {
         display: none;
+        width: 0px;
+        height: 0px;
     }
 
     .ofertas{
         display: none;
+        width: 0px;
+        height: 0px;
     }
 
 
@@ -658,8 +667,9 @@ nav{
         padding-left: 1px;
         padding-right: 20px;
     }
-    .filtros h1{
+    #titulo-producto{
         font-size: 20px;
+        padding-left: 0px;
     }
 
     .filtros ul li {

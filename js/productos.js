@@ -30,7 +30,7 @@ function crearProducto() {
             <p class="precio">${datosDeProducto.precio}</p>
             <p>en stock</p>
             <div class="boton-producto">
-                <a class="boton-comprar" href="http://localhost:3000/carrito.html">Comprar</a>
+                <a class="boton-comprar" href="https://matiasm12.github.io/ventaindumentaria.github.io/carrito.html">Comprar</a>
             </div>
          </div>
     `
@@ -59,7 +59,7 @@ function crearRelacionados (lista,idDiv) {
             <h2 class="precio">${lista.precio}</h2>
             </div>
             <div  class="boton-producto">
-            <a class="boton-ver-mas" href="http://localhost:3000/producto.html" >Ver mas</a>
+            <a class="boton-ver-mas" href="https://matiasm12.github.io/ventaindumentaria.github.ioproducto.html" >Ver mas</a>
             </div>
     `
     idDiv.append(tarjeta);

@@ -28,7 +28,7 @@ function listarProductos(lista,idDiv){
         <h2 class="precio">${lista.precio}</h2>
         </div>
         <div  class="boton-producto">
-        <a class="boton-ver" href="http://localhost:3000/producto.html" >Ver mas</a>
+        <a class="boton-ver" href="https://matiasm12.github.io/ventaindumentaria.github.io/producto.html" >Ver mas</a>
         </div>`
         idDiv.append(tarjeta);
     

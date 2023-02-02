@@ -43,7 +43,7 @@ function crearTarjeta (lista,idDiv) {
             <h2 class="precio">${lista.precio}</h2>
             </div>
             <div  class="boton-producto">
-            <a class="boton-ver" href="http://localhost:3000/producto.html" >Ver mas</a>
+            <a class="boton-ver" href="https://matiasm12.github.io/ventaindumentaria.github.io/producto.html" >Ver mas</a>
             </div>
         
     `
@@ -70,7 +70,7 @@ function crearDestacado(lista,idDeDiv){
         <div class="card-body1" >
         <h5 class="card-title titulo" >${lista.titulo}</h5>
         <p class="card-text" >${lista.descripcion}</p>
-        <a href="http://localhost:3000/producto.html" class="btn btn-primary boton-ver-mas">Ir al producto</a>
+        <a href="https://matiasm12.github.io/ventaindumentaria.github.io/producto.html" class="btn btn-primary boton-ver-mas">Ir al producto</a>
         </div>
     </div>
     `

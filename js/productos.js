@@ -21,7 +21,7 @@ function crearProducto() {
     
     tarjeta.innerHTML = `
         <div class="imagen">
-            <img src=${datosDeProducto.imagen.slice(21)} alt="">
+            <img src=${datosDeProducto.imagen.slice(55)} alt="">
         </div>
         <div class="informacion">
             <h2 class="titulo">${datosDeProducto.titulo}</h2>
